@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f8f0; /* สีพื้นหลังอ่อนเขียว */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #004d00; /* เขียวเข้ม */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #80e0a1; /* สีเขียวอ่อน */
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #009900; /* เขียวสด */
+    border-bottom: 3px solid #009900;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+h3 {
+    color: #006600; /* เขียวเข้ม */
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.important-dates img, .quiz img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #006600; /* เขียวเข้ม */
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.correct {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.quiz {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 2rem 0;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.question ul {
+    padding-left: 20px;
+}
+
+.question li {
+    padding: 8px 0;
+}
